@@ -21,7 +21,7 @@ jobs:
         pip install build
 
     - name: Test_pip8
-      uses: github/Test_pip8@v4.9.5
+      uses: github/Test_CI@v1
       env:
         DEFAULT_BRANCH: main
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
