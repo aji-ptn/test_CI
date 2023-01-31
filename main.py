@@ -1,7 +1,7 @@
 from another_class import AnotherClass
 
 
-class Main():
+class Main:
     def __init__(self):
         self.another_class = AnotherClass(self)
         self.hello = "hello"
